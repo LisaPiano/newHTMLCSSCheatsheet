@@ -1,5 +1,7 @@
 body {
     text-align: center;
+    background-color: #FAEBD7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
@@ -17,7 +19,7 @@ table {
 }
 
 tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: #6495ED;
   }
 
   #tableTitle {
@@ -25,8 +27,8 @@ tr:nth-child(even) {
   }
 
   .main-title {
-    color: white;
-    background-color: black;
+    color: #FAEBD7;
+    background-color:#6495ED;
     text-transform: uppercase;
     height: 90px;
     margin: auto;

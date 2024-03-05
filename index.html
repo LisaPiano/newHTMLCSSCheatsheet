@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <div>
+        <div class="main-title">
         <h1>How to create a table using HTML markup cheatsheet</h1>
         </div>
     </header>
@@ -16,21 +17,125 @@
     <table>
         <thead>
             <tr>
-                <th colspan="4">
-                    <h1>Cheatsheet Tags</h1>
-                    </th>
-            </tr>
-
-            <tr>
+                <th colspan="12">
+                    <h1 id="tableTitle">CheatsheetTable</h1>
+                </th>
 
             </tr>
             <tr>
-
+                <th>
+                    <h1>Tags</h1>
+                </th>
+                <th>
+                    <h1>Tag Meaning</h1>
+                </th>
+                <th>
+                    <h1>Tag Role</h1>
+                </th>
             </tr>
-
-
-
         </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <h2>&lttable&gt</h2>
+                </td>
+                <td>
+                    <h2>Defines table</h2>
+                </td>
+                <td>
+                    <h2>Add to beginning and end of table</h2>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>&ltthead&gt</h2>
+                </td>
+                <td>
+                    <h2>Defines heading row(s)</h2>
+                </td>
+                <td>
+                    <h2>Include all heading titles</h2>
+                </td>
+            </tr>
+     
+            <tr>
+                <td>
+                    <h2>&lttr&gt</h2>
+                </td>
+                <td>
+                    <h2>Defines every row in every catagory</h2>
+                </td>
+                <td>
+                    <h2>Nests the heading and data</h2>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <h2>&ltth&gt</h2>
+                </td>
+                <td>
+                    <h2>Defines every heading</h2>
+                </td>
+                <td>
+                    <h2>Nested inside &lttr&gt, no &lttd&gt here</h2>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>&lttd&gt</h2>
+                </td>
+                <td>
+                    <h2>Data nested inside non-heading row</h2>
+                </td>
+                <td>
+                    <h2>Use nested inside of &ltbody&gt and &lttr&gt </h2>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>&lth2&gt</h2>
+                </td>
+                <td>
+                    <h2>Good size for data</h2>
+                </td>
+                <td>
+                    <h2>Use nested inside of &lttd&gt or &ltth&gt</h2>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>&lttbody&gt</h2>
+                </td>
+                <td>
+                    <h2>Delineates data rows in body of table</h2>
+                </td>
+                <td>
+                    <h2>Nests the data rows</h2>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+               <tr>
+                <td>
+                    <h2>
+                        &ltfooter&gt
+                    </h2>
+                </td>
+                <td>
+                    <h2>
+                        Places footer at bottom of table
+                    </h2>
+                </td>
+                <td>
+                    <h2>
+                        Contains footer data
+                    </h2>
+                </td>
+               </tr>
+            </tr>
+        </tfoot>
 
 
     </table>

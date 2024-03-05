@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+table {
+    margin: auto;
+    margin-top: 30px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  #tableTitle {
+    text-align: center;
+  }
+
+  .main-title {
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+    height: 90px;
+    margin: auto;
+    width: 70%;
+    padding: 20px 0;
+  }

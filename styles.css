@@ -30,8 +30,8 @@ tr:nth-child(even) {
     color: #FAEBD7;
     background-color:#6495ED;
     text-transform: uppercase;
-    height: 90px;
+    height: 4%;
     margin: auto;
     width: 70%;
-    padding: 20px 0;
+    padding: 20px;
   }
